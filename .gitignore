@@ -1,6 +1,7 @@
 # standard
 node_modules
 process.env
+bundle.js
 
 # logs
 logs
