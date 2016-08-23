@@ -1,0 +1,39 @@
+{
+  "name": "vpower",
+  "version": "1.0.0",
+  "description": "Virtual power data for rides on Strava",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify client.js -o bundle.js -t [ babelify --presets [ es2015 react ] ]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crellison/vpower.git"
+  },
+  "keywords": [
+    "strava",
+    "virtual",
+    "power",
+    "data",
+    "vis",
+    "visualization"
+  ],
+  "author": "Cole Ellison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crellison/vpower/issues"
+  },
+  "homepage": "https://github.com/crellison/vpower#readme",
+  "dependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "eslint": "^3.3.1",
+    "eslint-plugin-react": "^6.1.2",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "watchify": "^3.7.0"
+  }
+}
