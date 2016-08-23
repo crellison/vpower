@@ -1,0 +1,8 @@
+# standard
+node_modules
+process.env
+
+# logs
+logs
+*.log
+npm-debug.log*
